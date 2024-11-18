@@ -23,6 +23,7 @@ src/main/frontend/dist/
 *.ipr
 db/
 db2/
+log/
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
