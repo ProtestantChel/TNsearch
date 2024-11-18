@@ -1,0 +1,74 @@
+.ant-layout-custom {
+  min-width: 1280px;
+  min-height: 800px;
+}
+.logo-vertical {
+  width: 100%;
+  padding: 5px 5px 10px 5px;
+  border-bottom: 1px solid #ffd8bf;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.span-logo {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 400;
+}
+.span-logo-hidden{
+  opacity: 0;
+  visibility: hidden;
+  transition-delay: 0s;
+  position: absolute;
+
+}
+.span-logo-visible{
+  opacity: 1;
+  visibility: visible;
+  position: absolute;
+  left: 55px;
+  transition: opacity 0.2s, visibility 0s linear 0.2s;
+}
+.ant-table table { 
+  min-width: 1480px;
+  font-size: 12px; 
+}
+.ant-form-item-explain-error {font-size: 10px;}
+.nav-bar {
+  width: 100%;
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-logo {
+  display: flex;
+  margin-left: 10px;
+  padding: 0;
+}
+.nav-bar-ul {
+  flex-wrap: nowrap;
+  flex-direction: row;
+  display: flex;
+  padding: 0;
+  margin: 0px 10px 0px 0px;
+  list-style: none;
+}
+.dd-block {
+  width: 0;
+  border-right: 1px solid #e3e6f0;
+  height: calc(4.375rem - 2rem);
+  margin: auto 1rem;
+}
+.nav-li-user {
+  width: 155px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.demo-logo-vertical {
+  color: rgba(255, 255, 255, 0.65);
+  display: flex;
+
+  align-items: center;
+  margin: 15px 0px 15px 15px;
+}
